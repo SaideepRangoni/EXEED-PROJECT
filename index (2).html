@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Interior Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="font-family: Arial, sans-serif;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f8f9fa; box-shadow: 0 2px 4px rgba(0,0,0,.1);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-weight: bold; color: #333;">HomeDecor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: #007bff;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html" style="color: #333;">User Login</a>
+                    </li>                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="roomsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #333;">
+                            Rooms
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="roomsDropdown">
+                            <li><a class="dropdown-item" href="bedroom.html" style="color: #333;">Bedroom</a></li>
+                            <li><a class="dropdown-item" href="kitchen.html" style="color: #333;">Kitchen</a></li>
+                            <li><a class="dropdown-item" href="livingroom.html" style="color: #333;">Living Room</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center" style="background-image: url('Designer2.jpeg'); background-size: cover; background-position: center; padding: 100px 0; color: black;">
+    </section>
+    <section>
+        <h1 style="font-size: 2rem; text-align: center; margin-bottom: 20px;">Welcome to Your Dream Home</h1>
+        <p style="font-size: 1.5rem;text-align: center; justify-content: center;">Designing Spaces You'll Love</p>
+    </section>
+    <!-- Customer Feedback Carousel -->
+<section class="customer-feedback" style="background-color: #f8f9fa; padding: 50px 0;">
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- First slide -->
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="cus1.png" class="rounded-circle" alt="Customer 1" style="width: 100px; height: 100px; object-fit: cover;">
+                </div>
+                <div class="carousel-caption" style="position: static; color: #333; padding-top: 20px;">
+                    <p style="font-style: italic;">"This is the best interior design service I've ever used. My home looks amazing!"</p>
+                    <h5 style="font-weight: bold;">~ Anand  </h5>
+                </div>
+            </div>
+    
+            <!-- Second slide -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="cus2.jpg" class="rounded-circle" alt="Customer 2" style="width: 100px; height: 100px; object-fit: cover;">
+                </div>
+                <div class="carousel-caption" style="position: static; color: #333; padding-top: 20px;">
+                    <p style="font-style: italic;">"Professional, creative, and extremely dedicated. Highly recommended!"</p>
+                    <h5 style="font-weight: bold;">~ Pratham </h5>
+                </div>
+            </div>
+    
+            <!-- Third slide -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="cus3.jpg" class="rounded-circle" alt="Customer 3" style="width: 100px; height: 100px; object-fit: cover;">
+                </div>
+                <div class="carousel-caption" style="position: static; color: #333; padding-top: 20px;">
+                    <p style="font-style: italic;">"A seamless experience from start to finish. My living room has never looked better."</p>
+                    <h5 style="font-weight: bold;">~ Sanjana </h5>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+    <!-- Featured Designs -->
+    <section class="featured-designs container" style="padding: 50px 0;">
+        <h2 class="text-center my-5" style="color: #333;">Featured Designs</h2>
+        <div class="row">
+            <!-- Add your images here with the proper structure -->
+            <div class="col-md-4">
+                <img src="image1.jpg" alt="Design 1" class="img-fluid" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,.1);">
+            </div>
+            <div class="col-md-4">
+                <img src="image2.jpeg" alt="Design 2" class="img-fluid" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,.1);">
+            </div>
+            <div class="col-md-4">
+                <img src="image3.jpg" alt="Design 3" class="img-fluid" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,.1);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3" style="background-color: #333;">
+        <p style="margin-bottom: 0;">© 2024 Interior Design. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var myCarousel = document.querySelector('#testimonialCarousel');
+    var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 3000,
+        wrap: true
+    });
+});
+
+</script>
+</html>
